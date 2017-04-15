@@ -19,12 +19,45 @@
 <h2>Operadic Graphical Programming Language</h2>
 </div>
 
+<!-- gitter chat -->
+<script>
+((window.gitter = {}).chat = {}).options = {
+  room: 'statebox/Lobby'
+};
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+
 <div>
 <p>
 This is research I worked on for 15 years, spanning life, the universe and
 <strong>everything</strong>: from computer programming, quantum physics, space-time and
 consciousness.
 </p>
+
+<h4>General Idea</h4>
+
+Statebox is build from various principles of linear logic, functional programming,
+information theory, reversible computing, operad theory and diagrammatic languages.
+
+It tries to separate 'distributed state' from 'localised state', or 'process'
+from 'computation'. In a sense, <em>there is no time in statebox</em>.
+
+A process itself is glued together from smaller consitituents:
+- the empty process `{}`
+- the one place process, partially  defining a term "term"
+- "flat composition" the quotient of a set of processes
+- "nested composition" the embedding of a process in a token
+
+A process is defined as a petrinet with some extra structure. An instance
+of a process is a path through it's state space. This path can be any monad,
+
+State itself is considered to be build up out of content-adressed data,
+linked in a blockchain fashion.
+
+the basis is "s ---[t]---> s"
+
+
 
 <p>More to come soon, follow
 <a href="https://twitter.com/statebox">@statebox</a> on twitter to stay informed
