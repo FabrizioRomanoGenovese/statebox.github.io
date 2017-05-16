@@ -8,15 +8,66 @@
   <link rel="stylesheet" href="css/pure-min.css">
   <link rel="stylesheet" href="css/grids-responsive-min.css">
   <style>
-  body { padding: 2em; }
+  body {
+    font-size: 1.2em;
+    padding: 2em;
+    color: #f08;
+    text-shadow: 2px 2px rgba(250,250,0,.9);
+  }
+  
+  .lal {
+    background-color: rgba(0,0,0,0.3);
+    padding: 0.6em;
+    width: 15%;
+  }
+
+  .lal > img {
+    margin: 12px;
+  }
+  .lal > div > h1,
+  .lal > div > h2,
+  .lal > div > h3,
+  .lal > div > h4,
+   {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  a {
+    color: white !important;
+    text-decoration: none;
+    font-family: monospace;
+    text-shadow: 2px 2px rgba(0,0,0,.7);
+  }
+
+  html { 
+    background: url(lol.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
   </style>
 </head>
 <body>
 
+<div class="lal">
 <div>
-<h1 class="banner-head">Statebox</h1>
-<img width="25%" src="statebox_logo.png"/>
-<h2>Operadic Graphical Programming Language</h2>
+<!--<h1 class="banner-head">Statebox</h1>-->
+<!--
+<h4>Compositional Diagrammatic Protocol Language</h4>
+<img width="96px" src="statebox_logo.png"/>
+-->
+<h2>WORK IN PROGRESS</h2>
+</div>
+<ul>
+  <li>
+    <a href="https://github.com/statebox">github</a> 
+  </li>
+  <li>
+    <a href="https://twitter.com/statebox">twitter</a></br>
+  </li>
+</ul>
 </div>
 
 <!-- gitter chat -->
@@ -27,9 +78,9 @@
 </script>
 <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 
-
 <div>
-<p>
+
+<!--<p>
 This is research I worked on for 15 years, spanning life, the universe and
 <strong>everything</strong>: from computer programming, quantum physics, space-time and
 consciousness.
@@ -55,9 +106,7 @@ of a process is a path through it's state space. This path can be any monad,
 State itself is considered to be build up out of content-adressed data,
 linked in a blockchain fashion.
 
-the basis is "s ---[t]---> s"
-
-
+the basis is "s - - - [t] - - -> s"
 
 <p>More to come soon, follow
 <a href="https://twitter.com/statebox">@statebox</a> on twitter to stay informed
@@ -66,13 +115,23 @@ or on github <a href="https://github.com/statebox">github.com/statebox</a>
 </div>
 <hr>
 <div>
-<h4>Current work</h4>
+<p>
+We are working on <a href="typedefs.com">typedefs</a> and a proof of concept.
+Stay tuned!
+</p>
+<h4>Some WIP</h4>
 <ul>
+<li><a href="https://github.com/statebox/nll-spec">NLL, binary codec</a> for list of lists of
+(signed) varints
+</li>
+<li><a href="https://github.com/statebox/nll-js">nll-js</a> JS implementation of NLL
+</li>
 <li><a href="https://github.com/ipfs/notes/issues/168">proposal of binary encoding of bipartite graphs</a></li>
 <li><a href="https://github.com/statebox/tbpt-viewer">viewer for tbpt format and it's dual
 representation</a></li>
 <li><a href="https://github.com/statebox/ptnet-viewer">petrinet viewer/simulator</a></li>
 </ul>
+-->
 </div>
 
 </body>
