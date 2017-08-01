@@ -20,11 +20,17 @@
     text-shadow: 1px 1px 4px rgba(0,0,0,.75);
   }
 
+  .intro {
+    color: rgba(200,230,255,0.9);
+    text-shadow: 1px 1px 4px rgba(0,0,0,.75);
+  }
+
   .lal {
     background-color: rgba(0,0,0,0.3);
     padding: 0.6em;
     width: 15%;
   }
+
 
   .lal > img {
     margin: 12px;
@@ -101,7 +107,6 @@
   </li>
 </ul>
 
-<script type="text/javascript" src="//static.mailerlite.com/data/webforms/429229/e5r9a3.js?v4"></script>
 
 </div>
 
@@ -109,10 +114,26 @@
 <div id="inner">
 
 <h2>Compositional Diagrammatic Protocol Language</h2>
-<p>
-<pre>
-petri net + operad + dag + fp + types + crypto = stbx.
+<p class="intro">
+Statebox is a radically different way to build smart contracts, inspired by modern physics and mathematics.
+<br/>
+<br/>
+Instead of text-based instructions telling a smart contract how to achieve certain behaviour, statebox contracts are represented as diagrams. You declare what can, did and might happen to the contract.
+<br/>
+<br/>
+End-to-end correctness proofs are a fundamental design principle, not an afterthought: the core is a mathematically clean structure that facilitates reasoning about its behaviour.
+<br/>
+<br/>
+Diagrams can be composed into bigger diagrams, preserving their properties, such as termination guarantees.
+<br/>
+<br/>
+This way contracts are easier to understand, build and inspect.
+</p>
 
+<br/>
+<hr/>
+<pre>
+<!--petri net + operad + dag + fp + types + crypto = stbx.-->
 <b>Some WIP</b>
 <ul><li><a href="https://github.com/statebox/nll-spec">nll-spec</a> binary codec</a> for list of lists of
 (signed) varints
@@ -120,8 +141,22 @@ petri net + operad + dag + fp + types + crypto = stbx.
 <li><a href="https://github.com/statebox/nll-js">nll-js</a> JS implementation of NLL
 </li>
 <li><a href="https://github.com/ipfs/notes/issues/168">ipfs/notes#168</a> proposal of binary
-encoding of bipartite graphs</a></li></ul>
+encoding of bipartite graphs</a></li>
+</ul>
+<b>Team</b>
+<ul><li>Jelle Herold</li></ul>
+<b>Scientific Advisors</b>
+<ul><li>David Spivak <a href="http://math.mit.edu/~dspivak/">math.mit.edu/~dspivak/</a></li></ul>
 </pre>
+<hr/>
+<br/>
+
+
+<p>
+<span class="intro">Please subscribe to our mailing if you want to be kept informed about upcoming
+ICO</span>
+<script type="text/javascript" src="//static.mailerlite.com/data/webforms/429229/e5r9a3.js?v4"></script>
+</p>
 <!--
 <li><a href="https://github.com/statebox/tbpt-viewer">viewer for tbpt format and it's dual
 representation</a></li>
@@ -197,6 +232,12 @@ when I have time -->
 
 </script>
 
+
+<style>
+div.subscribe-form {
+  background: none !important;
+}
+</style>
 
 </body>
 </html>
