@@ -26,12 +26,18 @@
     <li>
         <a href="https://twitter.com/statebox">twitter</a></br>
     </li>
+  </ul>
+  Synced IM channels:
+  <ul>
     <li>
-        <a href="https://gitter.im/statebox">gitter chat room</a></br>
+      <a href="https://riot.im/app/#/room/#statebox:matrix.org"><code>#statebox:matrix.org</code></a>
+    </li>
+    <li>
+        <a href="https://gitter.im/statebox">gitter</a></br>
     </li>
     <li>
         <a
-        href="https://join.slack.com/t/statebox/shared_invite/MjI4NzAzMTUwNzA0LTE1MDMzMTUxMzYtMGYyYmI5ZWNmMg">join slack</a> (synced with gitter)
+        href="https://join.slack.com/t/statebox/shared_invite/MjI4NzAzMTUwNzA0LTE1MDMzMTUxMzYtMGYyYmI5ZWNmMg">slack</a>
     </li>
   </ul>
 </div>
@@ -51,6 +57,12 @@
     {% endfor %}
     </ul>
 
+    <div>
+      <p>
+        <span class="intro">Subscribe to our mailinglist to get (low volume) news</span>
+        <script type="text/javascript" src="//static.mailerlite.com/data/webforms/429229/e5r9a3.js?v4"></script>
+      </p>
+    </div>
   </div>
 </div>
 
@@ -63,6 +75,16 @@
   ga('create', 'UA-100242387-1', 'auto');
   ga('send', 'pageview');
 </script>
+
+<!-- gitter chat -->
+<script>
+((window.gitter = {}).chat = {}).options = {
+    room: 'statebox/Lobby'
+};
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+
 
 
 </body>
