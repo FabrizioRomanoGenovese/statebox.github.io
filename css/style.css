@@ -1,0 +1,85 @@
+body {
+  font-size: 1.2em;
+  padding: 2em;
+  color: #f08;
+  text-shadow: 2px 2px rgba(250,250,0,.9);
+}
+
+pre {
+  color: rgba(200,230,255,0.9);
+  text-shadow: 1px 1px 4px rgba(0,0,0,.75);
+}
+
+.intro {
+  color: rgba(200,230,255,0.9);
+  text-shadow: 1px 1px 4px rgba(0,0,0,.75);
+}
+
+.lal {
+  background-color: rgba(0,0,0,0.3);
+  padding: 0.6em;
+  width: 15%;
+}
+
+
+.lal > img {
+  margin: 12px;
+}
+
+.lal > div > h1,
+.lal > div > h2,
+.lal > div > h3,
+.lal > div > h4,
+ {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+a, .brood {
+  color: white !important;
+  text-decoration: none;
+  font-family: monospace;
+  text-shadow: 2px 2px rgba(0,0,0,.7);
+}
+
+.brood {
+    font-size: 1.6em;
+}
+
+html { 
+  background: url(/lol.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.whoei {
+  background: rgba(100,70,160,0.8);
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -o-border-radius: 12px;
+  border-radius: 12px;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30%;
+}
+
+.whoei #inner {
+  width: 70%;
+  padding: 4em;
+  margin: 0 auto;
+}
+
+.whoei a {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: rgba(250,30,180, 0.9) !important;
+  text-shadow: 1px 1px rgba(250,250,0, 0.9) !important;
+}
+
+.fa {
+    color: black !important;
+    text-shadow: none !important;
+    font-size: 24px !important;
+} 

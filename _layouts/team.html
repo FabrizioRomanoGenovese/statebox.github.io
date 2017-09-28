@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <title>Statebox {{ page.title }}</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Statebox, programming redefined"/>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/pure-min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/grids-responsive-min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+</head>
+<body>
+
+<div class="lal">
+  <div>
+    <h2>WORK IN PROGRESS</h2>
+  </div>
+  <ul>
+    <li>
+        <a href="https://github.com/statebox">github</a> 
+    </li>
+    <li>
+        <a href="https://twitter.com/statebox">twitter</a></br>
+    </li>
+    <li>
+        <a href="https://gitter.im/statebox">gitter chat room</a></br>
+    </li>
+    <li>
+        <a
+        href="https://join.slack.com/t/statebox/shared_invite/MjI4NzAzMTUwNzA0LTE1MDMzMTUxMzYtMGYyYmI5ZWNmMg">join slack</a> (synced with gitter)
+    </li>
+  </ul>
+</div>
+
+<div class="whoei">
+  <div id="inner" class="brood">
+    {{ content }}
+
+    <h2>Team</h2>
+
+    <ul>
+    {% for peep in page.peeps.team %}
+        <li> 
+            [{% if peep.github %}<a href="https://github.com/{{peep.github}}"><i class="fa fa-github-alt" aria-hidden="true"></i></a>{% endif %}{% if peep.web %}<a href="https://github.com/{{peep.web}}"><i class="fa fa-globe" aria-hidden="true"></i></a>{% endif %}]
+            {{peep.name}}
+        </li>
+    {% endfor %}
+    </ul>
+
+  </div>
+</div>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-100242387-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+</body>
+</html>
