@@ -13,79 +13,95 @@
     <link rel="stylesheet" type="text/css" href="css/grids-responsive-min.css"/>
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
 </head>
-<body>
-
-<div class="lal">
-  <div>
-    <h2>WORK IN PROGRESS</h2>
+<body id="top">
+  <div class="topnav" id="myTopnav">
+    <a class="" href="#top"><img class="nav-logo" src="statebox_logo.png"></a>
+    <a class="nav-item" href="#news">News</a>
+    <a class="nav-item" href="#contact">Contact</a>
+    <a class="nav-item "href="#about">About</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
-  <ul>
-    <li>
-        <a href="https://github.com/statebox">github</a> 
-    </li>
-    <li>
-        <a href="https://twitter.com/statebox">twitter</a></br>
-    </li>
-  </ul>
-  Synced IM channels:
-  <ul>
-    <li>
-      <a href="https://riot.im/app/#/room/#statebox:matrix.org"><code>#statebox:matrix.org</code></a>
-    </li>
-    <li>
-        <a href="https://gitter.im/statebox">gitter</a></br>
-    </li>
-    <li>
-        <a
-        href="https://join.slack.com/t/statebox/shared_invite/MjI4NzAzMTUwNzA0LTE1MDMzMTUxMzYtMGYyYmI5ZWNmMg">slack</a>
-    </li>
-  </ul>
-</div>
 
-<div class="whoei">
-  <div id="inner" class="brood">
-    {{ content }}
-
-    <h2>Team</h2>
-
-    <ul>
-    {% for peep in page.peeps.team %}
-        <li> 
-            [{% if peep.github %}<a href="https://github.com/{{peep.github}}"><i class="fa fa-github-alt" aria-hidden="true"></i></a>{% endif %}{% if peep.web %}<a href="{{peep.web}}"><i class="fa fa-globe" aria-hidden="true"></i></a>{% endif %}]
-            {{peep.name}}
+  <div class="main-container">
+    <div class="lal">
+      <div>
+        <h2>WORK IN PROGRESS</h2>
+      </div>
+      <ul>
+        <li>
+            <a href="https://github.com/statebox">github</a> 
         </li>
-    {% endfor %}
-    </ul>
+        <li>
+            <a href="https://twitter.com/statebox">twitter</a></br>
+        </li>
+      </ul>
+      Synced IM channels:
+      <ul>
+        <li>
+          <a href="https://riot.im/app/#/room/#statebox:matrix.org"><code>#statebox:matrix.org</code></a>
+        </li>
+        <li>
+            <a href="https://gitter.im/statebox">gitter</a></br>
+        </li>
+        <li>
+            <a
+            href="https://join.slack.com/t/statebox/shared_invite/MjI4NzAzMTUwNzA0LTE1MDMzMTUxMzYtMGYyYmI5ZWNmMg">slack</a>
+        </li>
+      </ul>
+    </div>
 
-    <div>
-      <p>
-        <span class="intro">Subscribe to our mailinglist to get (low volume) news</span>
-        <script type="text/javascript" src="//static.mailerlite.com/data/webforms/429229/e5r9a3.js?v4"></script>
-      </p>
+    <div class="whoei">
+      <div id="inner" class="brood">
+        {{ content }}
+
+        <h2>Team</h2>
+
+        <ul>
+        {% for peep in page.peeps.team %}
+            <li> 
+                [{% if peep.github %}<a href="https://github.com/{{peep.github}}"><i class="fa fa-github-alt" aria-hidden="true"></i></a>{% endif %}{% if peep.web %}<a href="{{peep.web}}"><i class="fa fa-globe" aria-hidden="true"></i></a>{% endif %}]
+                {{peep.name}}
+            </li>
+        {% endfor %}
+        </ul>
+
+        <div>
+          <p>
+            <span class="intro">Subscribe to our mailinglist to get (low volume) news</span>
+            <script type="text/javascript" src="//static.mailerlite.com/data/webforms/429229/e5r9a3.js?v4"></script>
+          </p>
+        </div>
+      </div>
     </div>
   </div>
-</div>
 
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-100242387-1', 'auto');
-  ga('send', 'pageview');
-</script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-100242387-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 
-<!-- gitter chat -->
-<script>
-((window.gitter = {}).chat = {}).options = {
-    room: 'statebox/Lobby'
-};
-</script>
-<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
-
-
-
+  <!-- gitter chat -->
+  <script>
+    ((window.gitter = {}).chat = {}).options = {
+        room: 'statebox/Lobby'
+    };
+  </script>
+  <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 
 </body>
 </html>
