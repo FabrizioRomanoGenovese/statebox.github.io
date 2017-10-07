@@ -17,9 +17,8 @@
 <body id="top">
   <div class="topnav" id="myTopnav">
     <a class="" href="#top"><img class="nav-logo" src="statebox_logo.png"></a>
-    <a class="nav-item" href="#news">News</a>
-    <a class="nav-item" href="#contact">Contact</a>
-    <a class="nav-item "href="#about">About</a>
+    <a class="nav-item" href="#team">Team</a>
+    <a class="nav-item" href="#inner">About</a>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     <div class="social-media-nav" >
       <a href="https://twitter.com/statebox" target="_blank"><i class="nav-soc nav-item fa fa-twitter"></i></a>
@@ -33,15 +32,19 @@
   <div class="main-container">
     <!-- start summit section -->
     <section class="summit">
-      <h2>Statebox - Zlarin Summit</h2>
-      <img src="">
+      <h2>First Statebox Summit</h2> 
+      <h4>Taking place Nov 1st - Nov 7th 2017 on Zlarin, Croatia</h4>
+      <p>Statebox is hosting its first summit on the beautiful island of Zlarin in Croatia. We are inviting a small group of experts with different backgrounds with a focus
+        on mathematics and computer science to collaborate on the early prototype of the Statebox language and core principles.
+      </p>
+      <img src="/img/zlarin.jpg">
     </section><!-- end summit section -->
 
     <div class="whoei">
       <div id="inner" class="brood">
         {{ content }}
 
-        <h2>Team</h2>
+        <h2 id="team">Team</h2>
 
         <ul>
         {% for peep in page.peeps.team %}
