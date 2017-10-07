@@ -1,6 +1,6 @@
 ---
 layout: team
-title: Main
+title: "- Compositional Diagrammatic Programming Language"
 peeps:
   team:
     - github: difranco
@@ -18,7 +18,6 @@ peeps:
     - web: http://math.mit.edu/~dspivak/
       name: David Spivak (advisor)
 ---
-
 
 ## Compositional Diagrammatic Protocol Language
 
