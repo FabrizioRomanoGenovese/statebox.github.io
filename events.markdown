@@ -1,6 +1,6 @@
 ---
-layout: default 
-title: "- Events"
+layout: default
+title: Events
 ---
 
 ## Statebox Events

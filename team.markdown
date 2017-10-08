@@ -1,6 +1,6 @@
 ---
 layout: team
-title: "- Team"
+title: Team
 peeps:
   team:
     - github: difranco
