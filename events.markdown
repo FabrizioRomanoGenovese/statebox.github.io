@@ -10,3 +10,7 @@ title: "- Events"
 Statebox is hosting its first summit on the beautiful island of Zlarin in Croatia. We are inviting a small group of experts with different backgrounds with a focus on mathematics and computer science to collaborate on the early prototype of the Statebox language and core principles.
 
 <img style="width: 100%" src="/img/zlarin.jpg">
+
+Please note that the travel, accommodation and food expenses for each attendee will be covered by Statebox.
+
+<a href="http://www.stonehouses-zlarin.com/house-vana.html" target="_blank">Example of accommodations</a>
