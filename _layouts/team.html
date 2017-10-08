@@ -12,21 +12,18 @@
       <div id="inner" class="brood">
 
         <h2 id="team">Team</h2>
-        <ul>
-          <!-- team loop -->
-          {% for peep in page.peeps.team %}
-          <li>
-            [{% if peep.github %}<a href="https://github.com/{{peep.github}}"><i class="fa fa-github-alt" aria-hidden="true"></i></a>{%
-            endif %}{% if peep.web %}<a href="{{peep.web}}"><i class="fa fa-globe" aria-hidden="true"></i></a>{% endif %}]
-            {{peep.name}}
-          </li>
-          {% endfor %}
-        </ul>
+        <!-- team loop -->
+        {% for peep in page.peeps.team %}
+        <p>
+          [{% if peep.github %}<a href="https://github.com/{{peep.github}}"><i class="fa fa-github-alt" aria-hidden="true"></i></a>{%
+          endif %}{% if peep.web %}<a href="{{peep.web}}"><i class="fa fa-globe" aria-hidden="true"></i></a>{% endif %}]
+          {{peep.name}}
+        </p>
+        {% endfor %}
         <!-- end team loop -->
-        
+        <br> 
         <!-- main content -->
         {{ content }}
-
       </div>
     </div>
   </div>
