@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<!-- head -->
+{% include head.html %}
+
+<body id="top">
+  <!-- navbar -->
+  {% include nav.html %}
+
+  <div id="intro-canvas"></div>
+
+  <!-- start main-container -->
+  <div class="main-container">
+    <div class="whoei">
+      <div id="inner" class="brood">
+        {{ content }}
+
+        <!-- subscription form -->
+        {% include subscription_form.html %}
+      </div>
+    </div>
+  </div>
+  <!-- end main container -->
+
+  <!-- footer -->
+  {% include footer.html %}
+
+  <!-- scripts -->
+  {% include scripts.html %}
+</body>
+
+</html>
