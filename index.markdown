@@ -1,9 +1,11 @@
 ---
-layout: default 
+layout: default
 title: Compositional Diagrammatic Programming Language
 ---
 
-## Compositional Diagrammatic Protocol Language
+# <a href="http://statebox.org/silicon-zlarin-2017.html">-- STATEBOX SUMMIT 2017.10.01 --</a>
+
+### Compositional Diagrammatic Protocol Language
 
 Statebox is a radically different way to build smart contracts, inspired
 by modern physics and mathematics.
