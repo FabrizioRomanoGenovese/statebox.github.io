@@ -14,3 +14,5 @@ Statebox is hosting its first summit on the beautiful island of Zlarin in Croati
 Please note that the travel, accommodation and food expenses for each attendee will be covered by Statebox.
 
 <a href="http://www.stonehouses-zlarin.com/house-vana.html" target="_blank">Example of accommodations</a>
+
+If you would like to be considered for the summit please fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSe3vV0Yn5EFm3L3T7wob0BYsChcuW9p3Vz6F5ZkklDhGnpTmA/viewform?usp=sf_link" target="_blank">this</a> form
