@@ -33,7 +33,7 @@ a{
 }
 @media only screen and (max-width: 600px){
   .main-container{
-    padding: 0px;
+    padding: 4em 0 2em 0;
   }
 }
 pre {
@@ -93,6 +93,7 @@ a, .brood {
 @media only screen and (max-width: 900px){
   .whoei{
     width: 100%;
+    margin-top: 100px;
   }
   .whoei #inner{
     width: 90%;

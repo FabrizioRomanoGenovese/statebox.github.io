@@ -12,6 +12,7 @@
 
 <!-- fade out intro canvas -->
 <script>
+    can = document.getElementById('intro-canvas');
     function fade(element) {
         var op = 1;  // initial opacity
         var timer = setInterval(function () {
@@ -24,10 +25,13 @@
             op -= op * 0.1;
         }, 100);
     }
-    can = document.getElementById('intro-canvas');
-    setTimeout(function(){ 
-        fade(can)
-     }, 2000);
+    if (document.title === "Statebox - Compositional Diagrammatic Programming Language"){
+        setTimeout(function(){ 
+            fade(can)
+        }, 2000);
+    } else {
+        can.style.display = "none";
+    }
 </script>
 
 <!-- google analytics -->
