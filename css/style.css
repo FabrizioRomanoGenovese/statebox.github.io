@@ -57,7 +57,7 @@ a, .brood {
   text-shadow: 2px 2px rgba(0,0,0,.7);
 }
 .brood {
-    font-size: 1.6em;
+	text-align: justify;
 }
 
 /* summit */
@@ -147,7 +147,7 @@ a, .brood {
   text-align: center;
   padding: 14px 16px 10px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.4em;
 }
 .topnav .icon {
   display: none;
