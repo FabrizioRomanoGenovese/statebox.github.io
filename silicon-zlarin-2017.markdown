@@ -3,7 +3,7 @@ layout: default
 title: 1st Statebox Summit 2017
 ---
 
-# 1st Statebox Summit 2017
+## 1st Statebox Summit 2017
 
 <img style="width: 100%" src="/img/zlarin.jpg">
 
@@ -52,4 +52,10 @@ We will be staying in stone houses with private bedrooms.
 Lunch and dinner is provided.
 
 <img style="width: 100%" src="/img/zlarin-terrace.jpg">
+
+## Questions & support
+
+If you have any questions, please contact
+
+> <a href="mailto:events@statebox.org">events@statebox.org</a>
 
