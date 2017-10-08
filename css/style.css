@@ -20,6 +20,7 @@ a{
   width: 100%;
 }
 .main-container{
+  min-height: 100vh;
   background: linear-gradient(
     rgba(0, 0, 0, 0.5), 
     rgba(0, 0, 0, 0.5)
@@ -83,7 +84,7 @@ a, .brood {
 .whoei #inner {
   width: 70%;
   padding: 1.5em 4em 4em 4em;
-  margin: 0 auto;
+2 margin: 0 auto;
 }
 .whoei a {
   font-weight: bold;
@@ -108,12 +109,12 @@ a, .brood {
 }
 .nav-item{
   display: inline-block;
-  margin-top: 24px;
+  margin-top: 20px;
 }
 @media screen and (max-width: 600px){
   .nav-item{
     display: inline-block;
-    margin: 24px 0 24px 0 !important;
+    margin: 20px 0 20px 0 !important;
   }
 }
 .nav-soc{
