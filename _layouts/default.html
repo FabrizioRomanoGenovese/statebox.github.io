@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<!-- head -->
+{% include head.html %}
+
+<body id="top">
+  <!-- navbar -->
+  {% include nav.html %}
+
+  <!-- start main-container -->
+  <div class="main-container">
+    <div class="whoei">
+      <div id="inner" class="brood">
+        {{ content }}
+        <div>
+          <p>
+            <span class="intro">Subscribe to our mailinglist to get (low volume) news</span>
+            <script type="text/javascript" src="//static.mailerlite.com/data/webforms/429229/e5r9a3.js?v4"></script>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end main container -->
+
+  <!-- footer -->
+  {% include footer.html %}
+
+  <!-- scripts -->
+  {% include scripts.html %}
+</body>
+
+</html>

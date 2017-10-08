@@ -1,0 +1,12 @@
+---
+layout: default 
+title: "- Events"
+---
+
+## Statebox Events
+
+### First Statebox Summit
+#### Taking place Nov 1st - Nov 7th 2017 on Zlarin, Croatia
+Statebox is hosting its first summit on the beautiful island of Zlarin in Croatia. We are inviting a small group of experts with different backgrounds with a focus on mathematics and computer science to collaborate on the early prototype of the Statebox language and core principles.
+
+<img style="width: 100%" src="/img/zlarin.jpg">

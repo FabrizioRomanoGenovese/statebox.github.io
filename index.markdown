@@ -1,5 +1,5 @@
 ---
-layout: team
+layout: default 
 title: "- Compositional Diagrammatic Programming Language"
 peeps:
   team:

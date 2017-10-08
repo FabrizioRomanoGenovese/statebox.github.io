@@ -1,45 +1,13 @@
 <!doctype html>
 <html>
-<head>
-    <title>Statebox {{ page.title }}</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<!-- head -->
+{% include head.html %}
 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="Statebox, programming redefined"/>
-
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="css/pure-min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/grids-responsive-min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
-</head>
 <body id="top">
-  <div class="topnav" id="myTopnav">
-    <a class="" href="#top"><img class="nav-logo" src="statebox_logo.png"></a>
-    <a class="nav-item" href="#team">Team</a>
-    <a class="nav-item" href="#inner">About</a>
-    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-    <div class="social-media-nav" >
-      <a href="https://twitter.com/statebox" target="_blank"><i class="nav-soc nav-item fa fa-twitter"></i></a>
-      <a href="https://github.com/statebox" target="_blank"><i class="nav-soc nav-item fa fa-github"></i></a>
-      <a href="https://join.slack.com/t/statebox/shared_invite/MjI4NzAzMTUwNzA0LTE1MDMzMTUxMzYtMGYyYmI5ZWNmMg" target="_blank"><i class="nav-soc nav-item fa fa-slack"></i></a>
-      <a href="https://gitter.im/statebox" target="_blank"><img class="gitter-img nav-item" src="img/gitter_icon.svg"></a>
-      <a href="https://riot.im/app/#/room/#statebox:matrix.org" target="_blank"><img class="matrix-img nav-item" src="img/matrixim.gif"></a>
-    </div>
-  </div>
+  <!-- navbar -->
+  {% include nav.html %}
 
   <div class="main-container">
-    <!-- start summit section -->
-    <section class="summit">
-      <h2>First Statebox Summit</h2> 
-      <h4>Taking place Nov 1st - Nov 7th 2017 on Zlarin, Croatia</h4>
-      <p>Statebox is hosting its first summit on the beautiful island of Zlarin in Croatia. We are inviting a small group of experts with different backgrounds with a focus
-        on mathematics and computer science to collaborate on the early prototype of the Statebox language and core principles.
-      </p>
-      <img style="width: 100%" src="/img/zlarin.jpg">
-    </section><!-- end summit section -->
-
     <div class="whoei">
       <div id="inner" class="brood">
         {{ content }}
@@ -47,72 +15,27 @@
         <h2 id="team">Team</h2>
 
         <ul>
-        {% for peep in page.peeps.team %}
-            <li> 
-                [{% if peep.github %}<a href="https://github.com/{{peep.github}}"><i class="fa fa-github-alt" aria-hidden="true"></i></a>{% endif %}{% if peep.web %}<a href="{{peep.web}}"><i class="fa fa-globe" aria-hidden="true"></i></a>{% endif %}]
-                {{peep.name}}
-            </li>
-        {% endfor %}
+          <!-- team loop -->
+          {% for peep in page.peeps.team %}
+          <li>
+            [{% if peep.github %}<a href="https://github.com/{{peep.github}}"><i class="fa fa-github-alt" aria-hidden="true"></i></a>{%
+            endif %}{% if peep.web %}<a href="{{peep.web}}"><i class="fa fa-globe" aria-hidden="true"></i></a>{% endif %}]
+            {{peep.name}}
+          </li>
+          {% endfor %}
         </ul>
-
-        <div>
-          <p>
-            <span class="intro">Subscribe to our mailinglist to get (low volume) news</span>
-            <script type="text/javascript" src="//static.mailerlite.com/data/webforms/429229/e5r9a3.js?v4"></script>
-          </p>
-        </div>
+        <!-- end team loop -->
 
       </div>
     </div>
-
-    <footer>
-      <div style="width: 300px; margin: auto; padding-bottom: 60px">
-        <a href="https://twitter.com/statebox" target="_blank"><i class="nav-soc nav-item fa fa-twitter"></i></a>
-        <a href="https://github.com/statebox" target="_blank"><i class="nav-soc nav-item fa fa-github"></i></a>
-        <a href="https://join.slack.com/t/statebox/shared_invite/MjI4NzAzMTUwNzA0LTE1MDMzMTUxMzYtMGYyYmI5ZWNmMg" target="_blank"><i class="nav-soc nav-item fa fa-slack"></i></a>
-        <a href="https://gitter.im/statebox" target="_blank"><img class="gitter-img nav-item" src="img/gitter_icon.svg"></a>
-        <a href="https://riot.im/app/#/room/#statebox:matrix.org" target="_blank"><img class="matrix-img nav-item" src="img/matrixim.gif"></a>
-      </div>
-    </footer>
   </div>
 
-  <script>
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
-  </script>
+  <!-- footer -->
+  {% include footer.html %}
+  </div>
 
-  <!-- google analytics -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-100242387-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-
-  <!-- mailerlite
-  <script>
-  (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
-  var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
-  f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
-  var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
-  _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
-  var ml_account = ml('accounts', '803525', 'g6h0t4e4a3', 'load');
-  </script>
-  -->
-
-  <!-- gitter chat -->
-  <script>
-    ((window.gitter = {}).chat = {}).options = { room: 'statebox/Lobby' };
-  </script>
-  <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
-
+  <!-- scripts -->
+  {% include scripts.html %}
 </body>
+
 </html>
