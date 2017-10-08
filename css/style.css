@@ -95,6 +95,12 @@ body {
   display: inline-block;
   margin-top: 24px;
 }
+@media screen and (max-width: 600px){
+  .nav-item{
+    display: inline-block;
+    margin: 24px 0 24px 0 !important;
+  }
+}
 .nav-soc{
   margin-top: 22px;
   color: white !important;
@@ -164,6 +170,9 @@ body {
 }
 
 /* footer */
+footer{
+  padding-bottom: 50px;
+}
 footer a.nav-item{
   padding: 10px 20px 10px 20px;
 }
