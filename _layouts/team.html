@@ -10,10 +10,8 @@
   <div class="main-container">
     <div class="whoei">
       <div id="inner" class="brood">
-        {{ content }}
 
         <h2 id="team">Team</h2>
-
         <ul>
           <!-- team loop -->
           {% for peep in page.peeps.team %}
@@ -25,6 +23,9 @@
           {% endfor %}
         </ul>
         <!-- end team loop -->
+        
+        <!-- main content -->
+        {{ content }}
 
       </div>
     </div>

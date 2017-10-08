@@ -1,6 +1,6 @@
 ---
 layout: team
-title: "- Compositional Diagrammatic Programming Language"
+title: "- Team"
 peeps:
   team:
     - github: difranco
@@ -18,3 +18,9 @@ peeps:
     - web: http://math.mit.edu/~dspivak/
       name: David Spivak (advisor)
 ---
+
+## We are hiring
+
+If you have a technical background, especially involving functional programming, blockchain, type theory, category theory, security, business processes or strong business skills we would like to hear from you.
+
+You can shoot us an email <a href="mailto:info@statebox.org">here</a>
