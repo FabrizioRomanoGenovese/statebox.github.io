@@ -3,7 +3,7 @@ layout: default
 title: Compositional Diagrammatic Programming Language
 ---
 
-# <a href="http://statebox.org/silicon-zlarin-2017.html">-- STATEBOX SUMMIT 2017.10.01 --</a>
+# <a href="http://statebox.org/silicon-zlarin-2017.html">STATEBOX SUMMIT 1st Nov 2017</a>
 
 ### Compositional Diagrammatic Protocol Language
 
