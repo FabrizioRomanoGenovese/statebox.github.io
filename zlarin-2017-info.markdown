@@ -7,13 +7,13 @@ title: Event Summary
 
 Our summit will be organized in two distinct phases:
 
-### Phase I - [Schedule](http://localhost:4000/zlarin-2017-tables.html)
+### Phase I - [Schedule](http://statebox.org/zlarin-2017-tables.html)
 
 To take place on 1st and 2nd of November, it will consist of a series of scientific talks where the researchers invited will have the opportunity to talk about aspects from their area of expertise, which are also relevant to the Statebox project. The talks will be interactive. The goal here is to not simply present one’s own work, but to enable people to manipulate it and use it in the next days (at least to some extent). The duration of each talk will be agreed with the relevant speakers. A big part of the talk time slot will be dedicated to questions/interaction with the crowd.
 
 At the end of each day, a couple of special talks will be given. Those will be about the current blockchain environment, the hacker culture and how to make business in the cryptocurrency community at the moment.
 
-### Phase II - [Schedule](http://localhost:4000/zlarin-2017-tables.html)
+### Phase II - [Schedule](http://statebox.org/zlarin-2017-tables.html)
 
 It will take place between November 3 to November 6. People will have the opportunity to freely organize themselves in microclusters and employ their skills to solve relevant problems.
 

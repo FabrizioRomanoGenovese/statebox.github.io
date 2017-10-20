@@ -14,72 +14,74 @@
         <a href="http://localhost:4000/zlarin-2017-info.html">[back]</a>
         <br>
         <h2 id="team">Nov 1st Talks</h2>
-        <!-- table 1 loop -->
-        <table>
-          <thead>
-            <tr>
-              <th>Topic</th>
-              <th>Speaker</th>
-              <th>Summary</th>
-            </tr>
-          </thead>
-          <tbody>
-            {% for talk in page.talks.nov1st-math-talks %}
+        <div style="overflow-x:auto;">
+          <!-- table 1 loop -->
+          <table style="overflow-x:auto;">
+            <thead>
               <tr>
-                <th>
-                  {% if talk.topic %}
-                    {{talk.topic}}
-                  {% endif %}
-                </th>
-                <th>
-                  {% if talk.speaker %}
-                    {{talk.speaker}}
-                  {% endif %}
-                </th>
-                <th>
-                  {% if talk.summary %}
-                    {{talk.summary}}
-                  {% endif %}
-                </th>
+                <th>Topic</th>
+                <th>Speaker</th>
+                <th>Summary</th>
               </tr>
-            {% endfor %}
-          </tbody>
-        </table>
-        
+            </thead>
+            <tbody>
+              {% for talk in page.talks.nov1st-math-talks %}
+                <tr>
+                  <th>
+                    {% if talk.topic %}
+                      {{talk.topic}}
+                    {% endif %}
+                  </th>
+                  <th>
+                    {% if talk.speaker %}
+                      {{talk.speaker}}
+                    {% endif %}
+                  </th>
+                  <th>
+                    {% if talk.summary %}
+                      {{talk.summary}}
+                    {% endif %}
+                  </th>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div> 
         <br>
         <h2 id="team">Nov 2nd Talks</h2>
         <!-- table 1 loop -->
-        <table>
-          <thead>
-            <tr>
-              <th>Topic</th>
-              <th>Speaker</th>
-              <th>Summary</th>
-            </tr>
-          </thead>
-          <tbody>
-        {% for talk in page.talks.nov2nd-prog-talks %}
+        <div style="overflow-x:auto;">
+          <table>
+            <thead>
               <tr>
-                <th>
-                  {% if talk.topic %}
-                    {{talk.topic}}
-                  {% endif %}
-                </th>
-                <th>
-                  {% if talk.speaker %}
-                    {{talk.speaker}}
-                  {% endif %}
-                </th>
-                <th>
-                  {% if talk.summary %}
-                    {{talk.summary}}
-                  {% endif %}
-                </th>
+                <th>Topic</th>
+                <th>Speaker</th>
+                <th>Summary</th>
               </tr>
-            {% endfor %}
-          </tbody>
-        </table>
-
+            </thead>
+            <tbody>
+          {% for talk in page.talks.nov2nd-prog-talks %}
+                <tr>
+                  <th>
+                    {% if talk.topic %}
+                      {{talk.topic}}
+                    {% endif %}
+                  </th>
+                  <th>
+                    {% if talk.speaker %}
+                      {{talk.speaker}}
+                    {% endif %}
+                  </th>
+                  <th>
+                    {% if talk.summary %}
+                      {{talk.summary}}
+                    {% endif %}
+                  </th>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
 
         <br> 
         <!-- main content -->
@@ -99,6 +101,13 @@
     padding: 10px 30px 10px 30px;
     border-bottom: 1px solid gainsboro;
     text-align: left;
+  }
+  @media screen and (max-width: 600px){
+    th{
+      padding: 5px 5px 5px 5px;
+      border-bottom: 1px solid gainsboro;
+      text-align: left;
+    }
   }
 </style>
 </body>
