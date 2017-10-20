@@ -9,33 +9,33 @@ Our summit will be organized in two distinct phases:
 
 ### Phase I - [Schedule](http://localhost:4000/zlarin-2017-tables.html)
 
-To take place on 1st and 2nd of November, will consist of a series of scientific talks where the researchers invited will have the opportunity to talk about aspects relevant to the Statebox project, in which they are experts. The talks will be interactive. The goal here is to not simply present one’s own work, but to enable people to manipulate it and use it in the next days (at least to some extent). The duration of each talk will be agreed with the relevant speakers. A big part of the talk time slot will be dedicated to questions/interaction with the crowd.
+To take place on 1st and 2nd of November, it will consist of a series of scientific talks where the researchers invited will have the opportunity to talk about aspects from their area of expertise, which are also relevant to the Statebox project. The talks will be interactive. The goal here is to not simply present one’s own work, but to enable people to manipulate it and use it in the next days (at least to some extent). The duration of each talk will be agreed with the relevant speakers. A big part of the talk time slot will be dedicated to questions/interaction with the crowd.
 
 At the end of each day, a couple of special talks will be given. Those will be about the current blockchain environment, the hacker culture and how to make business in the cryptocurrency community at the moment.
 
 ### Phase II - [Schedule](http://localhost:4000/zlarin-2017-tables.html)
 
-Will take place between November 3 to November 6. People will have the opportunity to freely organize themselves in microclusters and employ their skills to solve relevant problems.
+It will take place between November 3 to November 6. People will have the opportunity to freely organize themselves in microclusters and employ their skills to solve relevant problems.
 
 <br>
 <hr>
 <br>
 
 ### Phase 0 (Oct 30 - Oct 31)
-This is when we will setup the house (routers, projectors, whiteboards, ...) and people arriving early will be able to meet each other better.
+This is when we will set up the house (routers, projectors, whiteboards, ...) and people arriving early will be able to get to know each other.
 
 <br>
 
 ### Phase 1 (Nov. 1 - Nov. 2)
-At the moment the Statebox Team is contacting some of the invited people, asking them if they are willing to give a talk. The following program is then not completely fixed at the moment, and will be updated in the next few days.
+At the moment the Statebox Team is contacting some of the people invited and filling up the remaining speaking slots. The following program is not yet finalized. A final version will be updated in the next few days.
 
 ### Phase 2 (Nov. 3 - Nov. 6)
-The goal of <b>phase II</b> is to start putting in place some solid mathematical foundations to formalize the vision underlying Statebox. This is when the fun happens. The Zlarin house(s) will transform into open labs, where people will be able to chat and cooperate as they wish, and put their skills to good use. There won’t be any time limits/slots of sorts: You will be free to work/think about the problems hereby listed while taking a walk in the forest, in front of a whiteboard or while fishing on the seashore. Also the fun Vs. time ratio is up to you: If you are a workaholic you are free to work 48 hours straight, same if you need to take a nap every 15 minutes. We believe that such approach is more respectful of everyone’s personal rhythm, hence we are actively advocating for such policy: The model we have in mind is about letting people self-organize in mini-clusters of 3-4 people each, according to their interests. These mini-clusters are flexible, meaning that everyone is able to hop around from one to the other, according to their will, for as long as he/she wishes.
+The goal of <b>phase II</b> is to start putting in place solid mathematical foundations to formalize the vision underlying Statebox. This is when the fun happens. The Zlarin house(s) will transform into open labs, where people will be able to chat and cooperate as they wish, and put their skills to good use. There will not be any time limits/slots of sorts: You will be free to work/think about the problems hereby listed while taking a walk in the forest, scribbling on a whiteboard or while fishing on the seashore. Also the fun vs. time ratio is up to you: If you are a workaholic you are free to work 48 hours straight. The same applies if you need to take a nap every 15 minutes. We believe that such an approach is more respectful of everyone’s personal rhythm, hence we are actively advocating for such a policy: The model we have in mind is about letting people self-organize in mini-clusters of 3-4 people each, according to their interests. These mini-clusters are flexible, meaning that everyone is able to hop around from one to the other, according to their will, for as long as he/she wishes.
 
 At the end of each day, a brief review of the things we figured out will be given. Everything will be documented with pictures/posts on a dedicated blog.
 
 ### The main problems to be solved are:
-1. Relate string diagrams with Petri nets: Statebox will in fact use a mixing of the two, and a strong mathematical formalism relating them in a consistent way is needed to implement strongly desiderated features, such as code correctness and formal verification. This will essentially be the category theory people’s lunapark.
+1. Relate string diagrams with Petri nets: Statebox will in fact use a mix of the two. A strong mathematical formalism relating them in a consistent way is needed to implement strongly desiderated features, such as code correctness and formal verification. This will essentially be the category theory people’s lunapark.
 2. Structure a well founded business model using math: Before going public and launching Statebox on the blockchain, we want to work out the best way to do this using results in mathematical economics. In particular, we want to design the best auction mechanism for Statebox initial sale and further discuss the revenue model we already set in place for it. People interested in money theory will have the opportunity to put their skills to good use to solve this problem.
 3. Study the implementability of our model in Idris: Once point 1 is clarified, we will have to start thinking about possible coding strategies to actually implement it. This is where functional programming people will probably have the most fun.
 4. Figure out formal verification for string diagrams: String diagrams represent pieces of code in Statebox. We clearly want to have a way to optimize this code according to relevant parameters: This is another problem to which we will have to give some thought.
@@ -47,7 +47,7 @@ Here we will review everything we did, we will set new deadlines/milestones and 
 On November 9, finally, we will “reset” the house and leave it for good.
 
 ## Stuff Provided
-- Standard things: Blankets, towels, etc.
+- Standard things: blankets, towels, etc.
 - A reliable internet connection, comprising a TOR network access point
 - Coffee, ad libitum
 - Beer, in reasonable amounts
@@ -59,7 +59,7 @@ On November 9, finally, we will “reset” the house and leave it for good.
 Please remember that the plugs in Croatia are EU type. We will bring some adaptors with us, but bringing some more + USB chargers (if you need them) may be wise.
 
 ## Reading material
-If you want to do some homework before showing up, here is a reading list of papers that you may wish to skim through. We moreover have a Mendeley group where these paper are shared. If you use Mendeley, we strongly suggest you to request access to the group clicking on the following link (feel free to add any relevant paper to the Mendeley repo):
+If you want to do some homework before showing up, here is a reading list of papers that you may wish to skim through. Moreover, we have a Mendeley group where these paper are shared. If you use Mendeley, we strongly suggest you request access to the group clicking on the following link (feel free to add any relevant paper to the Mendeley repo):
 
 [Mendeley Repository](https://www.mendeley.com/groups/11748971/_/)
 
