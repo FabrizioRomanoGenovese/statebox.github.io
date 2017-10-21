@@ -26,8 +26,6 @@ It will take place between November 3 to November 6. People will have the opport
 ### Phase 0 (Oct 30 - Oct 31)
 This is when we will set up the house (routers, projectors, whiteboards, ...) and people arriving early will be able to get to know each other.
 
-<br>
-
 ### Phase 1 (Nov. 1 - Nov. 2)
 At the moment the Statebox Team is contacting some of the people invited and filling up the remaining speaking slots. The following program is not yet finalized. A final version will be updated in the next few days.
 
