@@ -5,31 +5,24 @@ title: Event Summary
 
 [[back]](http://statebox.org/silicon-zlarin-2017.html)
 
-## Overview of the Statebox summit in Zlarin, Croatia, 1-7 Nov. 2017
+# Overview of the Statebox summit in Zlarin, Croatia, 1-7 Nov. 2017
 
-Our summit will be organized in two distinct phases:
-
-### Phase I - [Schedule](http://statebox.org/zlarin-2017-tables.html)
-
-To take place on 1st and 2nd of November, it will consist of a series of scientific talks where the researchers invited will have the opportunity to talk about aspects from their area of expertise, which are also relevant to the Statebox project. The talks will be interactive. The goal here is to not simply present one’s own work, but to enable people to manipulate it and use it in the next days (at least to some extent). The duration of each talk will be agreed with the relevant speakers. A big part of the talk time slot will be dedicated to questions/interaction with the crowd.
-
-At the end of each day, a couple of special talks will be given. Those will be about the current blockchain environment, the hacker culture and how to make business in the cryptocurrency community at the moment.
-
-### Phase II 
-
-It will take place between November 3 to November 6. People will have the opportunity to freely organize themselves in microclusters and employ their skills to solve relevant problems.
-
-<br>
-<hr>
-<br>
+## Our summit will be organized in distinct phases:
 
 ### Phase 0 (Oct 30 - Oct 31)
 This is when we will set up the house (routers, projectors, whiteboards, ...) and people arriving early will be able to get to know each other.
 
-### Phase 1 (Nov. 1 - Nov. 2)
-At the moment the Statebox Team is contacting some of the people invited and filling up the remaining speaking slots. The following program is not yet finalized. A final version will be updated in the next few days.
+### Phase I (Nov. 1 - Nov. 2) - [Program](http://statebox.org/zlarin-2017-tables.html)
+At the moment the Statebox Team is contacting some of the people invited and filling up the remaining speaking slots. The [program](http://statebox.org/silicon-zlarin-2017.html) is not yet finalized. A final version will be updated in the next few days.
 
-### Phase 2 (Nov. 3 - Nov. 6)
+To take place on 1st and 2nd of November, it will consist of a series of scientific talks where the researchers invited will have the opportunity to talk about aspects from their area of expertise, which are also relevant to the Statebox project. The talks will be interactive. The goal here is to not simply present one’s own work, but to enable people to manipulate it and use it in the next days (at least to some extent). The duration of each talk will be agreed with the relevant speakers. A big part of the talk time slot will be dedicated to questions/interaction with the crowd.
+
+At the end of each day, a couple of special talks will be given. Those will be about the current blockchain environment, the hacker culture and how to make business in the cryptocurrency community.
+
+### Phase II (Nov. 3 - Nov. 6)
+
+It will take place between November 3 to November 6. People will have the opportunity to freely organize themselves in microclusters and employ their skills to solve relevant problems.
+
 The goal of <b>phase II</b> is to start putting in place solid mathematical foundations to formalize the vision underlying Statebox. This is when the fun happens. The Zlarin house(s) will transform into open labs, where people will be able to chat and cooperate as they wish, and put their skills to good use. There will not be any time limits/slots of sorts: You will be free to work/think about the problems hereby listed while taking a walk in the forest, scribbling on a whiteboard or while fishing on the seashore. Also the fun vs. time ratio is up to you: If you are a workaholic you are free to work 48 hours straight. The same applies if you need to take a nap every 15 minutes. We believe that such an approach is more respectful of everyone’s personal rhythm, hence we are actively advocating for such a policy: The model we have in mind is about letting people self-organize in mini-clusters of 3-4 people each, according to their interests. These mini-clusters are flexible, meaning that everyone is able to hop around from one to the other, according to their will, for as long as he/she wishes.
 
 At the end of each day, a brief review of the things we figured out will be given. Everything will be documented with pictures/posts on a dedicated blog.
@@ -41,7 +34,7 @@ At the end of each day, a brief review of the things we figured out will be give
 4. Figure out formal verification for string diagrams: String diagrams represent pieces of code in Statebox. We clearly want to have a way to optimize this code according to relevant parameters: This is another problem to which we will have to give some thought.
 5. Formalize the interaction between open games and Petri nets: Can open games be used to optimize the firing patterns in a Petri net, or to verify their overall consistency? We think the answer is yes, but then again the relevant maths has to be put in place.
 
-### Phase 3 (Nov. 7 - Nov. 8)
+### Phase III (Nov. 7 - Nov. 8)
 Here we will review everything we did, we will set new deadlines/milestones and we will figure out, according to contributions/time to dedicate to the project, who to take on board as a team member or as an advisor.
 
 On November 9, finally, we will “reset” the house and leave it for good.
