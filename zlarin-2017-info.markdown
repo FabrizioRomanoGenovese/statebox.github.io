@@ -80,11 +80,13 @@ Coecke, B. and Kissinger, A. Picturing Quantum Processes. A First Course in Quan
 <hr>
 
 #### Petri Nets
-Works by: Jose Meseguer, Ugo Montanari, Vladimiro Sassone
+Sobocinksi, P. Representations of Petri nets interactions, 6269 LNCS, 2010.
 
 Baez, J. and Pollard, B. A compositional framework for reaction networks, Reviews in Mathematical Physics 29 (2017), 1750028.
 
 Baez, J. Quantum techniques for reaction networks, to appear in Natural Computing.
+
+Works by: Jose Meseguer, Ugo Montanari, Vladimiro Sassone
 
 <hr>
 
