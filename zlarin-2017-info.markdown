@@ -3,6 +3,8 @@ layout: default
 title: Event Summary
 ---
 
+[[back]](http://statebox.org/silicon-zlarin-2017.html)
+
 ## Overview of the Statebox summit in Zlarin, Croatia, 1-7 Nov. 2017
 
 Our summit will be organized in two distinct phases:
@@ -63,7 +65,9 @@ If you want to do some homework before showing up, here is a reading list of pap
 
 [Mendeley Repository](https://www.mendeley.com/groups/11748971/_/)
 
-### Category Theory
+<hr>
+
+#### Category Theory
 Mac Lane, S. Categories for the working mathematician, Springer, New York 1978
 
 Borceux, F. Handbook of Categorical Algebra, Volumes 1,2,3, Cambridge University Press, Cambridge 1994
@@ -75,34 +79,49 @@ Online Series of lectures in Category Theory for Functional Programmers by Barto
 [Category Theory II](https://www.youtube.com/watch?v=3XTQSx1A3x8&list=PLbgaMIhjbmElia1eCEZNvsVscFef9m0dm
 )
 
-### String Diagrams
+<hr>
+
+#### String Diagrams
 Selinger, P. A Survey of Graphical Languages for Monoidal Categories, In Bob Coecke (ed.). New Structures for Physics. Lecture Notes in Physics. Springer Berlin Heidelberg, 2010. pp. 289-355. arXiv:0908.3347.
 
 Coecke, B. and Kissinger, A. Picturing Quantum Processes. A First Course in Quantum Theory and Diagrammatic Reasoning, Cambridge University Press, Cambridge, 2017.
 
-### Petri Nets
+<hr>
+
+#### Petri Nets
 Works by: Jose Meseguer, Ugo Montanari, Vladimiro Sassone
 
 Baez, J. and Pollard, B. A compositional framework for reaction networks, Reviews in Mathematical Physics 29 (2017), 1750028.
 
 Baez, J. Quantum techniques for reaction networks, to appear in Natural Computing.
 
-### Open Games
+<hr>
+
+#### Open Games
 Hedges, J. Towards compositional game theory, Queen Mary University of London (PhD Thesis).
 
-### Functional Programming
+<hr>
+
+#### Functional Programming
 Brady, E. Type-driven Development with Idris, Manning Publications, 2017.
 
-### Logic Programming
+<hr>
+
+#### Logic Programming
 Di Franco, A. Information-gain Computation, arXiv: 1707.01550.
 
-### Verification Theory
+<hr>
+
+#### Verification Theory
 ...
 
+<hr>
 
-### Blockchain
+#### Blockchain
 [Nakamoto, S. Bitcoin whitepaper, 2008.](https://blockstreet.info/news/2015-08-11/original-satoshi-nakamoto-bitcoin-white-paper-32769)
 [Buterin, V. Ethereum whitepaper, 2014.](https://github.com/ethereum/wiki/wiki/White-Paper)
 
-### Hacker Culture
+<hr>
+
+#### Hacker Culture
 [The Mentor. The Conscience of a Hacker, Phrack, Inc. 1(7, 3), 1986.](http://www.phrack.org/archives/issues/7/3.txt)

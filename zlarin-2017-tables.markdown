@@ -22,7 +22,7 @@ talks:
       speaker: TBD
       summary: Another formalism for composition of Petri nets is explored. 
     - topic: Open Games 
-      speaker: Neil Ghani / Fredrik Nordvall Forsberg
+      speaker: TBD 
       summary: A tutorial on what open games are, how they compose and how they can be useful in optimizing economic and computational issues.
     - topic: Special - How The Blockchain Works in Practice 
       speaker: Fabrizio Genovese / Anton Livaja
