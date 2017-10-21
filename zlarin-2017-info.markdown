@@ -15,7 +15,7 @@ To take place on 1st and 2nd of November, it will consist of a series of scienti
 
 At the end of each day, a couple of special talks will be given. Those will be about the current blockchain environment, the hacker culture and how to make business in the cryptocurrency community at the moment.
 
-### Phase II - [Schedule](http://statebox.org/zlarin-2017-tables.html)
+### Phase II 
 
 It will take place between November 3 to November 6. People will have the opportunity to freely organize themselves in microclusters and employ their skills to solve relevant problems.
 
