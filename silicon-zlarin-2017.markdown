@@ -12,7 +12,7 @@ in Croatia.
 
 ## About
 
-[Event agenda (detailed)](http://statebox.org/zlarin-2017-info.html)
+[Event agenda (detailed)](/zlarin-2017-info.html)
 
 We are inviting a small group of experts with different backgrounds with
 a focus on mathematics and computer science to collaborate on the early

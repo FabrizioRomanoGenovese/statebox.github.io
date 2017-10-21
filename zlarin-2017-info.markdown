@@ -3,7 +3,7 @@ layout: default
 title: Event Summary
 ---
 
-[[back]](http://statebox.org/silicon-zlarin-2017.html)
+[[back]](/silicon-zlarin-2017.html)
 
 # Overview of the Statebox summit in Zlarin, Croatia, 1-7 Nov. 2017
 <hr>
@@ -12,8 +12,8 @@ title: Event Summary
 ### Phase 0 (Oct 30 - Oct 31)
 This is when we will set up the house (routers, projectors, whiteboards, ...) and people arriving early will be able to get to know each other.
 
-### Phase I (Nov. 1 - Nov. 2) - [Program](http://statebox.org/zlarin-2017-tables.html)
-At the moment the Statebox Team is contacting some of the people invited and filling up the remaining speaking slots. The [program](http://statebox.org/silicon-zlarin-2017.html) is not yet finalized. A final version will be updated in the next few days.
+### Phase I (Nov. 1 - Nov. 2) - [Program](/zlarin-2017-tables.html)
+At the moment the Statebox Team is contacting some of the people invited and filling up the remaining speaking slots. The [program](/silicon-zlarin-2017.html) is not yet finalized. A final version will be updated in the next few days.
 
 To take place on 1st and 2nd of November, it will consist of a series of scientific talks where the researchers invited will have the opportunity to talk about aspects from their area of expertise, which are also relevant to the Statebox project. The talks will be interactive. The goal here is to not simply present one’s own work, but to enable people to manipulate it and use it in the next days (at least to some extent). The duration of each talk will be agreed with the relevant speakers. A big part of the talk time slot will be dedicated to questions/interaction with the crowd.
 
