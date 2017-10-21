@@ -6,7 +6,7 @@ title: Event Summary
 [[back]](http://statebox.org/silicon-zlarin-2017.html)
 
 # Overview of the Statebox summit in Zlarin, Croatia, 1-7 Nov. 2017
-
+<hr>
 ## Our summit will be organized in distinct phases:
 
 ### Phase 0 (Oct 30 - Oct 31)
@@ -93,18 +93,13 @@ Hedges, J. Towards compositional game theory, Queen Mary University of London (P
 
 <hr>
 
-#### Functional Programming
+#### Functional Programming / Formal Verification
 Brady, E. Type-driven Development with Idris, Manning Publications, 2017.
 
 <hr>
 
 #### Logic Programming
 Di Franco, A. Information-gain Computation, arXiv: 1707.01550.
-
-<hr>
-
-#### Verification Theory
-...
 
 <hr>
 
