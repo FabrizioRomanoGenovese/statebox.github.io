@@ -16,13 +16,13 @@ talks:
       speaker: Jules Hedges
       summary: A tutorial on graphical formalisms for monoidal categories (compact closed/monoidal closed/circuits) 
     - topic: Open Petri Nets 
-      speaker: TBD
+      speaker: Pawel Sobocinski
       summary: A tutorial on what open Petri nets are, how they compose, and how they can model distributed system behaviour.
     - topic: Petri Nets Through Spans 
-      speaker: TBD
+      speaker: Christian Williams
       summary: Another formalism for composition of Petri nets is explored. 
     - topic: Open Games 
-      speaker: TBD 
+      speaker: Neil Ghani
       summary: A tutorial on what open games are, how they compose and how they can be useful in optimizing economic and computational issues.
     - topic: Special - How The Blockchain Works in Practice 
       speaker: Fabrizio Genovese / Anton Livaja
@@ -35,10 +35,10 @@ talks:
       speaker: TBD
       summary: What is functional programming? How does it differ from other programming methods and how does it allow for compositional code design? 
     - topic: How Are Functional Programming and Category Theory Related? 
-      speaker: TBD
+      speaker: Neil Ghani
       summary: What is the relation between functional programming and category theory, and how are languages like Haskell/Idris interpreted in categorical models? 
     - topic: Logic Programming and Information Gain Computing 
-      speaker: TBD
+      speaker: Anthony Di Franco
       summary: What is logic programming and how does it improve the current coding standards? 
     - topic: Formal Verifcation Theory 
       speaker: TBD
