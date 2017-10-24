@@ -32,7 +32,7 @@ talks:
       summary: What hacker ethics means, its history and how it can be used to set up non-destructive business models. 
   nov2nd-prog-talks:
     - topic: Functional Programming 
-      speaker: TBD
+      speaker: Frederik Forsberg
       summary: What is functional programming? How does it differ from other programming methods and how does it allow for compositional code design? 
     - topic: How Are Functional Programming and Category Theory Related? 
       speaker: Neil Ghani
@@ -41,7 +41,7 @@ talks:
       speaker: Anthony Di Franco
       summary: What is logic programming and how does it improve the current coding standards? 
     - topic: Formal Verifcation Theory 
-      speaker: TBD
+      speaker: Frederik Forsberg
       summary: What is formal verification theory and how can it ensure that our code is correct?
     - topic: The Math That We Want 
       speaker: Fabrizio Genovese
